@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL DETAIL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1 class="main_heading">SHREE GANESHAYE NAMAH</h1>
+            <h2>PERSONAM INFORMATION</h2>
+            <div class="P-i">
+                <div class="prInfo">
+                    <label for="Your Name">Your Name:</label><input type="text" Your Name="Your Full Name" required>
+                    <br>
+                    <label for="Date of Birth">Date of Birth: </label><input type="date" Date of Birth="Date"
+                        required><br>
+                    <label for="Time of Birth">Time of Birth: </label><input type="time" Date of Birth="time"
+                        required><br>
+                    <label for="Place of Birth">Place of Birth: </label><input type="text" Place of Birth="text"
+                        required><br>
+                    Rashi:
+                    <select name="Rashi" id="Rashi" required>
+                        <option value="">--select a Rashi--</option>
+                        <option value="Mesha">Mesha</option>
+                        <option value="Vrishabh">Vrishabh</option>
+                        <option value="Mithuna">Mithuna</option>
+                        <option value="Karka">Karka</option>
+                        <option value="Simha">Simha</option>
+                        <option value="Kanya">Kanya</option>
+                        <option value="Tula">Tula</option>
+                        <option value="Vrishchika">Vrishchika</option>
+                        <option value="Dhanu">Dhanu</option>
+                        <option value="Makar">Makar</option>
+                        <option value="kumbha">Kumbha</option>
+                        <option value="Meena">Meena</option>
+                    </select> <br>
+
+                    Nakshatra:*
+                    <select name="Nakshatra" id="Nakshatra" required>
+                        <option value="">--select a Nakshatra--</option>
+                        <option value="Ashwini">Ashwini</option>
+                        <option value="Bharan">Bharani</option>
+                        <option value="Krittika">Krittika</option>
+                        <option value="Rohini">Rohini</option>
+                        <option value="Mrigashira">Mrigashira</option>
+                        <option value="Ardra">Ardra</option>
+                        <option value="Punarvasu">Punarvasu</option>
+                        <option value="Pushya">Pushya</option>
+                        <option value="Ashlesha">Ashlesha</option>
+                        <option value="Swati">Swati</option>
+                        <option value="Vishaka">Vishaka</option>
+                        <option value="Revati">Revati</option>
+                    </select> <br>
+
+                    <label>Complexion:*
+                        <select name="Complexion" id="Complexion" required>
+                            <option value="">--select a complexion--</option>
+                            <option value="Extremely Fair Skin">Extremely Fair Skin</option>
+                            <option value="Fair Skin">Fair Skin</option>
+                            <option value="Medium Skinn">Medium Skin</option>
+                            <option value="Olive or Light Brown Skin">Olive or Light Brown Skin </option>
+                            <option value="Brown Skin">Brown Skin</option>
+                            <option value="Black Skin">Black Skin</option>
+                        </select> <br>
+
+                        <p>Height: <input type="text" Height="text" required></p>
+                        <p>Gotra:*
+                            <select name="Gotra" id="Gotra" required>
+                                <option value="">--select a Gotra--</option>
+                                <option value="Atri">Atri</option>
+                                <option value="Bharadwaj">Bharadwaj</option>
+                                <option value="Gautam Maharshi">Gautam Maharshi</option>
+                                <option value="Jamadagni">Jamadagni </option>
+                                <option value="Kashyap">Kashyap</option>
+                                <option value="Vashishtha">Vashishtha</option>
+                                <option value="Vishwamitra">Vishwamitra</option>
+                            </select>
+                        <p>Bachelors: <input type="text" Bachelors="text" required></p>
+                        <p>Work: <input type="text" Work="text" required></p>
+                </div>
+                <div class="proim">
+                    <!-- <h1>Profile photo</h1> -->
+                     <div class="profile_photo">
+                        <img src="https://www.shutterstock.com/image-photo/photo-document-passport-id-mature-260nw-1178817271.jpg" alt="Profile_photo" width="200px" height="250px">
+                        <button class="up-btn"> Upload Photo</button>
+                        <input type="file" name="" id="upload" hidden>
+                    </div>
+                </div>
+            </div>
+            <div class="F-C">
+                <div class="family-details">
+                    <h3>FAMILY DETAILS</h3>
+                    <label for="Father-Name">Father's Name</label>
+                    <input type="text" name="" id="">
+                    <!-- <p>Father's Name: <input type="text" Father's Name="Father's Name" required></p> -->
+                    <p>Father's occupation:*
+                        <select name="Father's Occupation" id="Occupation" required>
+                            <option value="">--select a mother's occupation--</option>
+                            <option value="Government job">Government job</option>
+                            <option value="Businessman">Businessman</option>
+                            <option value="Farmer">Farmer </option>
+                            <option value="Others">Others </option>
+                        </select>
+                    <p>Mother's Name: <input type="text" Mother's Name="Mother's Name" required></p>
+                    <p>Mother's occupation:*
+                        <select name="Mother's Occupation" id="Gotra" required>
+                            <option value="">--select a mother's occupation--</option>
+                            <option value="Teacher">Teacher </option>
+                            <option value="Homemaker">Homemaker </option>
+                            <option value="Finance dep.">Finance dep. </option>
+                            <option value="Others">Others </option>
+                        </select>
+                    <p>Siblings: <input type="text" Siblings="siblings" required></p>
+                </div>
+                <div class="contact-Info">
+                    <h4>CONTACT INFORMATION</h4>
+                    <p>Contact Person: <input type="text" Contact Person="Full Name" required></p>
+                    <p>Contact Number: <input type="text" Contact Number="Number" required></p>
+                    <p>Email ID: <input type="text" Email ID="text" required></p>
+                    <p>Resident Address: <input type="text" Resident Address="text" required></p>
+                    <p>Pincode: <input type="text" Pincode="Number" required></p>
+                    <p><input type="submit" value="submit"></p>
+                </div>
+            </div>
+    </div>
+<script src="sujeet.js"></script>
+</body>
+
+</html>
